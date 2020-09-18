@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  height: 470px;
+  width: 470px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: linear-gradient(45deg, rgb(50, 134, 83), #b3a63a);
+}
+.container .wrapper img {
+  position: relative;
+  z-index: 20;
+  border-radius: 50%;
+  display: block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #fff;
+  object-fit: cover;
+  margin: 20px auto;
+}
+.wrapper .title {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 25px;
+}
+.wrapper .place {
+  color: white;
+  font-size: 16px;
+  line-height: 0px;
+  margin: 10px 0;
+  text-decoration: (rgb(50, 134, 83), #b3a63a);
+}
+.content {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  margin-top: 10px;
+  padding: 1px 20px 10px 20px !important;
+}
+.container .icons {
+  position: relative;
+  margin-top: -26px;
+  right: -60px;
+  list-style: none;
+}
+.container .icons li {
+  height: 30px;
+  width: 30px;
+  margin: 6px 0;
+}
+.container .icons li a {
+  color: #d42c2c;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  background: white;
+  line-height: 40px;
+  font-size: 25px;
+}
+.container .insta {
+  position: relative;
+  margin-top: -35px;
+  right: -220px;
+  list-style: none;
+}
+.container .insta li {
+  height: 30px;
+  width: 30px;
+  margin: 6px 0;
+}
+.container .insta li a {
+  color: #d42c2c;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  background: white;
+  line-height: 40px;
+  font-size: 25px;
+}
+.container .twitter {
+  position: relative;
+  margin-top: -35px;
+  right: -390px;
+  list-style: none;
+}
+.container .twitter li {
+  height: 30px;
+  width: 30px;
+  margin: 6px 0;
+}
+.container .twitter li a {
+  color: #d42c2c;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  background: white;
+  line-height: 40px;
+  font-size: 25px;
+}
